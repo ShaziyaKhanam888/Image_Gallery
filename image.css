@@ -31,15 +31,17 @@ nav li{
 }
 section{
     height: auto;
-    width: 90%;
+    width: 95%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     margin: auto;
     border: 2px solid red;
+    gap: 4px;
 }
 img{
-    height: 350px;
-    width: 350px;
+    height: 370px;
+    width: 380px;
+    border: 1px solid lightgrey;
 }
