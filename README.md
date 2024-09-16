@@ -24,6 +24,15 @@ This project is an **Image Gallery** created using HTML, CSS, and JavaScript. Th
 - Use the next and previous icons (if implemented) to navigate between enlarged images.
 - The header navigation is fixed and can be used to switch between different categories.
 
+
+**##Screenshots**
+![Screenshot 2024-09-16 231833](https://github.com/user-attachments/assets/6d5dbccd-ab28-4880-85a1-4c52718c9c5a)
+
+![Screenshot 2024-09-16 231757](https://github.com/user-attachments/assets/0342f61a-c7e5-4d00-93b1-ac91c726cd75)
+
+![Screenshot 2024-09-16 231737](https://github.com/user-attachments/assets/327b00ac-6794-4374-abc0-ae39b0d52821)
+
+
 ## Author
 
 - **Shaziya Khanam**
