@@ -21,7 +21,6 @@ This project is an **Image Gallery** created using HTML, CSS, and JavaScript. Th
 
 - Open the **Image Gallery** and browse through the different categories.
 - Click on any image to enlarge it.
-- Use the next and previous icons (if implemented) to navigate between enlarged images.
 - The header navigation is fixed and can be used to switch between different categories.
 
 
