@@ -8,13 +8,19 @@ h1{
     font-size: 1.7rem;
 }
 header {
-    height: 70px;
     display: flex;
-    justify-content: space-between;  
-    align-items: center;  
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
-    box-shadow: 0px -5px 15px 10px lightgrey;
+    box-shadow: 0px -5px 15px 10px rgb(137, 135, 135);
     margin-bottom: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100vw;
+    z-index: 2000;
+    background-color: #fff; 
 }
 nav ul {
     display: flex;  
@@ -29,6 +35,9 @@ nav li{
     font-size: 1rem;
     font-weight: 700;
 }
+main {
+    padding-top: 100px;  
+}
 section{
     height: auto;
     width: 95%;
@@ -37,13 +46,26 @@ section{
     justify-content: space-around;
     align-items: center;
     margin: auto;
-    /* border: 2px solid red; */
     gap: 8px;
     margin-top: 5px;
 }
-img{
-    height: 370px;
-    width: 380px;
+img {
+    height: 300px;
+    width: 300px;
     border: 1px solid lightgrey;
-    box-shadow: 0px 0px 5px 0px black;
+    box-shadow: 3px 3px 5px 0px black;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out, width 0.3s ease-in-out, height 0.3s ease-in-out;
+}
+
+.enlarged {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 550px;
+    height: 540px;
+    z-index: 3000;
+    border: 2px solid #624E88;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.7);
 }
